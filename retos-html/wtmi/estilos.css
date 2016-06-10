@@ -1,0 +1,78 @@
+body{
+	margin: 0 auto;
+}
+nav{
+	display: block;
+}
+
+nav>div{
+	display: inline-block;
+}
+
+.caja{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	padding: 30px 0;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+ul{
+	display: inline-block;
+	list-style: none;
+
+}
+li{
+	display: inline-block;
+}
+
+a{
+	float: left;
+	display: inline-block;
+}
+
+
+.logo_wtm{
+	padding: 0px;
+	display: inline-block;
+}
+
+.fondo1{
+	background-image:url(img/1.png)
+}
+
+.baner{
+	height: 450px;
+    width: 100%;
+    margin-top: 7.5em;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+    display: block;
+}
+
+h1{
+	font-size: 72px;
+	font-family:'Hind', sans-serif;
+	color: white;
+}
+
+p{
+	color: white;
+	font-family:'Hind', sans-serif;
+}
+
+.boton>a{
+	background-color: gray;
+	border-radius: 5px;
+	font-family:'Hind', sans-serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	padding: 1em;
+}

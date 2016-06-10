@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Home</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <h1>Welcome Home</h1>
+    <p>This is your learning mission, providing you with an overview of your current progress and total points earned at treehouse.</p>
+  </header>
+
+  <div>
+    <h2><strong>You're currently On Track</strong></h2>
+    <p>The front.end Web Develpment track was designed by Andrew to guide your learning experience at treehouse. Get started building interactive websites using Javascript and jQuery.</p>
+    <button class="btn btn-lg btn-success">Resume Track</button>
+  </div>
+
+  <div>
+    <h2><strong>Using Home</strong></h2>
+    <p>Here you can get a snapshoy view of your current Track, keep tabs on other active projects, get your points breackdown and recommendations of what to learn next</p>
+    <button class="btn btn-lg btn-primary">Start Tour</button>
+  </div>
+</div>
+
+</body>
+</html>
