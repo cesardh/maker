@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Párrafos</title>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a href="#">El juego</a></li>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Beneficios</a></li>
+      <li><input class="form-control" type="text" placeholder="Search" readonly></li>
+      <li><button class="btn btn-default">Sumit</button></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Ir a otro sitio</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <header class="jumbotron">
+    <h1>El planeta está en riesgo</h1>
+    <p>Sálvalo jugando este <strong>increible</strong> juego en linea</p>
+    <button class="btn btn-primary">Empezar ahora</button>
+  </header>
+
+  <div class="col-sm-4">
+    <h2>Multijugador</h2>
+    <p>Si, juegalo con tus mejores amigos sin importar en donde se encuentren, Comunícate en tiempo real con ellos y salva el mundo. Si, salva el mundo!</p>
+    <button class="btn btn-success">Invitar Amigos</button>
+    <button class="btn btn-default">Jugar solo</button>
+  </div>
+
+  <div class="col-sm-4">
+    <h2>Divertido</h2>
+    <p>Si, entre más juegues, más divertido será el juego, Juega por horas, dias o meses, Recuerda que lo importante no es ganar, es participar, aunque ganar es mas divertido.</p>
+    <button class="btn btn-success">Sí, quiero jugar</button>
+    <button class="btn btn-default">No, ahora no puedo</button>
+  </div>
+
+  <div class="col-sm-4">
+    <h2>Compra</h2>
+    <p>Si, queremos que juegues. Pero también queremos que compores. Las compras son muy importantes para salva el mundo. Esperamos que compres.</p>
+    <button class="btn btn-success">Quiero comprar</button>
+    <button class="btn btn-default">No tengo plata</button>
+  </div>
+
+  <div class="col-sm-12"><br><br><br></div>
+
+  <div class="alert alert-info col-sm-12">¡Atención! El juego es muy popular. Regístrate antes de que sea tarde</div>
+</div>
+
+  <h2><strong>Puntaje</strong></h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Puntos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pedro</td>
+          <td>8,300</td>
+        </tr>
+        <tr>
+          <td>Pablo</td>
+          <td>4,100</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <div class="row">
+
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="alert alert-danger"><strong>¡Lo sentimos!</strong> En este momento no es posible registrarse</div>
+
+      <form>
+        <div class="form-group">
+          <label for="entradaEmail">Email address</label>
+          <input type="email" class="form-control" id="entradaEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="Contraseña">Password</label>
+          <input type="password" class="form-control" id="entradaContraseña" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Entiendo las condiciones y eso
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Registrate</button>
+      </form>
+    </div>
+
+  <div class="col-sm-12">
+    <h2><strong>Registrate desde la consola</strong></h2>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        $ gem install eljuego <br>
+        $ eljuego signup'<br>
+        $ username: <br>
+        $ eljuego play <br>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
