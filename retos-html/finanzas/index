@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Finanzas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">mis<strong>finanzas</strong></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-dashboard"></span> Resumen</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Transacciones</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">salir</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+      </div> <br>
+
+      <div class="btn-block btn-group-vertical">
+        <button type="button" class="btn btn-default">Ingresos</button>
+        <button type="button" class="btn btn-default">Gastos</button>
+      </div><br><br>
+
+      <div class="btn-block btn-group-vertical">
+
+        <button type="button" class="btn btn-default">Restaurantes</button>
+        <button type="button" class="btn btn-default">Hogar</button>
+        <button type="button" class="btn btn-default">Diversión</button>
+        <button type="button" class="btn btn-default">Viajes</button>
+        <button type="button" class="btn btn-default">Carro</button>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+
+      <div>
+        <button type="button" class="btn btn-primary"><strong><span class="glyphicon glyphicon-plus"></span>Nueva transacción</strong></button>
+
+        <div class="dropdown dr">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Agosto 2014
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Agosto 2014</a></li>
+          </ul>
+        </div>
+        <br><br><br>
+
+        <table class="table">
+          <tr>
+            <td>Ago 26</td>
+            <td class="detalle">
+              <p>Gasto</p>
+              <button class="btn btn-info btn-xs"><strong>Hogar</strong></button>
+              <h2>Arriendo</h2>
+            </td>
+            <td>
+              <div class="dinero">$900,000</div>
+              <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
+              <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ago 25</td>
+            <td class="detalle">
+              <p>Gasto</p>
+              <button class="btn btn-info btn-xs"><strong>Restaurantes</strong></button>
+              <h2>el Rincón de mi tierra</h2>
+            </td>
+            <td>
+              <div class="dinero">$120,000</div>
+              <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
+              <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ago 24</td>
+            <td class="detalle">
+              <p>Ingreso</p>
+              <h2>Salario</h2>
+            </td>
+            <td>
+              <div class="dinero">$4'500,000</div>
+              <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
+              <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

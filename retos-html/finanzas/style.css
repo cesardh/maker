@@ -1,0 +1,13 @@
+.dr{
+  display: inline-block;
+  float: right;
+}
+
+.detalle p{
+  display: inline-block;
+}
+
+.detalle h2{
+  margin: 0;
+  font-size: 23px;
+}
