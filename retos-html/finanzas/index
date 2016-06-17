@@ -72,7 +72,7 @@
 
         <table class="table">
           <tr>
-            <td>Ago 26</td>
+            <td class="dia">Ago<br><span>26</span></td>
             <td class="detalle">
               <p>Gasto</p>
               <button class="btn btn-info btn-xs"><strong>Hogar</strong></button>
@@ -86,7 +86,7 @@
           </tr>
 
           <tr>
-            <td>Ago 25</td>
+            <td class="dia">Ago<br><span>25</span></td>
             <td class="detalle">
               <p>Gasto</p>
               <button class="btn btn-info btn-xs"><strong>Restaurantes</strong></button>
@@ -100,7 +100,7 @@
           </tr>
 
           <tr>
-            <td>Ago 24</td>
+            <td class="dia">Ago<br><span>24</span></td>
             <td class="detalle">
               <p>Ingreso</p>
               <h2>Salario</h2>

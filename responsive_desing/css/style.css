@@ -3,23 +3,32 @@
 }
 
 body{
+  background-color: #eee;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background-color: #eee;
 }
 
 .container{
-  width: 992px;
+  width: 80%;
   margin-left:auto;
   margin-right: auto;
 }
 
 .home-wrapper{
-  background: url('../images/bg_2.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg_2.jpg') no-repeat center top;
   color: white;
+  background-size: cover;
+}
+
+header{
+  background-color: rgba(48,48,48,0.5);
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
 }
 
 header nav{
+  display: flex;
   float: right;
   margin: 10px;
 }
@@ -38,6 +47,7 @@ header nav a.active{
 
 header .logo{
   font-size: 22px;
+  margin: 30px;
 }
 
 #home{
@@ -48,6 +58,8 @@ header .logo{
 #home h1{
   font-size: 68px;
   font-weight: normal;
+  margin-top: 100px;
+  line-height: 1.2;
 }
 
 #home p{
@@ -72,7 +84,10 @@ header .logo{
 }
 
 #home .social a:hover{
-  background: orange;
+  background: #fed136;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
 
 #servicios h2{
@@ -84,8 +99,14 @@ header .logo{
 #servicios .box{
   text-align: center;
   display: inline-block;
-  width: 33%;
+  width: 32%;
   padding: 10px;
+}
+
+#video{
+  background: black;
+  text-align: center;
+  padding: 30px 0;
 }
 
 #portafolio .box{
@@ -104,4 +125,130 @@ header .logo{
 
 #portafolio .box img{
   width: 100%;
+}
+
+#contacto{
+  background-color: #303030;
+  background-image: url(../images/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#contacto h2{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+#contacto input{
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea{
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button{
+  background: #fed136;
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+section{
+  padding: 80px;
+}
+
+footer{
+  padding: 80px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1200px){
+  #home h1{
+    margin-top: 60px;
+    font-size: 55px;
+  }
+
+  #servicios p{
+    font-size: 14px;
+  }
+
+  #portafolio .box{
+  width: 47%;
+  }
+
+  #portafolio p{
+    font-size: 14px;
+  }
+
+  header nav{
+    margin: 0 10px;
+  }
+
+}
+
+@media only screen and (max-width: 992px){
+
+  .container{
+    width: 90%;
+  }
+
+  .home-wrapper{
+    width: 100%;
+  }
+
+  #home h1{
+    font-size: 48px;
+  }
+
+  #home p{
+    font-size: 16px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+  header {
+    text-align: center;
+  }
+
+  header nav {
+
+    float: none;
+  }
+
+  header .logo {
+    font-size: 18px;
+  }
+
+  header nav a {
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+
+  #servicios .box{
+    width: 100%;
+
+  }
+
+  #portafolio .box{
+    width: 100%;
+    margin-top: 20px;
+  }
+
 }
