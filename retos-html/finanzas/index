@@ -78,8 +78,8 @@
               <button class="btn btn-info btn-xs"><strong>Hogar</strong></button>
               <h2>Arriendo</h2>
             </td>
-            <td>
-              <div class="dinero">$900,000</div>
+            <td class="dinero">
+              <div>$900,000</div>
               <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
               <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
             </td>
@@ -92,8 +92,8 @@
               <button class="btn btn-info btn-xs"><strong>Restaurantes</strong></button>
               <h2>el Rincón de mi tierra</h2>
             </td>
-            <td>
-              <div class="dinero">$120,000</div>
+            <td class="dinero">
+              <div>$120,000</div>
               <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
               <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
             </td>
@@ -105,7 +105,7 @@
               <p>Ingreso</p>
               <h2>Salario</h2>
             </td>
-            <td>
+            <td class="dinero">
               <div class="dinero">$4'500,000</div>
               <a href="#"><span class="glyphicon glyphicon-edit"></span> Editar</a>
               <a href="#"><span class="glyphicon glyphicon-trash"></span> Eliminar</a>
