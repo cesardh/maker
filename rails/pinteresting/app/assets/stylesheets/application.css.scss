@@ -2,6 +2,13 @@ $body-bg: #3498db;
 $brand-prymary: #c0392b;
 $jumbotron-bg: white;
 $font-family-sans-serif: 'lato', 'helvetica neue', 'helvetica', 'arial', 'sans-serif';
+$navbar-primary: #c0392b;
+$navbar-height: 45px;
 
 @import 'bootstrap';
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+.navbar-brand{
+  font-weight: bold;
+}
